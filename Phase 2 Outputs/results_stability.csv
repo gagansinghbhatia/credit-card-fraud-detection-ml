@@ -1,0 +1,10 @@
+Config,Seed,PR-AUC
+Random Forest + Cost-Sensitive,42,0.8114
+Random Forest + Cost-Sensitive,123,0.817
+Random Forest + Cost-Sensitive,999,0.8225
+Random Forest + SMOTE,42,0.809
+Random Forest + SMOTE,123,0.7957
+Random Forest + SMOTE,999,0.8047
+Logistic Regression + SMOTE,42,0.8032
+Logistic Regression + SMOTE,123,0.712
+Logistic Regression + SMOTE,999,0.7122

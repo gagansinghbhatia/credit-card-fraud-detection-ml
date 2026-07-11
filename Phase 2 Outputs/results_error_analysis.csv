@@ -1,0 +1,10 @@
+Config,TP,FP,FN,TN,FPR,FNR
+Logistic Regression + SMOTE,65,910,9,55762,0.0161,0.1216
+Random Forest + SMOTE,62,183,12,56489,0.0032,0.1622
+XGBoost + SMOTE,63,250,11,56422,0.0044,0.1486
+Logistic Regression + Undersampling,51,5,23,56667,0.0001,0.3108
+Random Forest + Undersampling,60,48,14,56624,0.0008,0.1892
+XGBoost + Undersampling,60,110,14,56562,0.0019,0.1892
+Logistic Regression + Cost-Sensitive,66,929,8,55743,0.0164,0.1081
+Random Forest + Cost-Sensitive,51,4,23,56668,0.0001,0.3108
+XGBoost + Cost-Sensitive,55,7,19,56665,0.0001,0.2568

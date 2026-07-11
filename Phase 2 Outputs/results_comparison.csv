@@ -1,0 +1,10 @@
+Config,PR-AUC (T),F1 (T),MCC (T),PR-AUC (R),F1 (R),MCC (R),PR-AUC Diff
+Random Forest + Cost-Sensitive,0.8114,0.7907,0.7992,0.8626,0.8404,0.8409,0.0512
+Random Forest + SMOTE,0.809,0.3887,0.4594,0.7268,0.4335,0.5053,-0.0822
+Logistic Regression + SMOTE,0.8032,0.1239,0.2395,0.7254,0.0986,0.2149,-0.0778
+XGBoost + Cost-Sensitive,0.8008,0.8088,0.8118,0.8712,0.8513,0.851,0.0704
+Random Forest + Undersampling,0.7994,0.6593,0.6707,0.7057,0.6667,0.6861,-0.0937
+XGBoost + SMOTE,0.7956,0.3256,0.4127,0.7513,0.3088,0.4074,-0.0443
+XGBoost + Undersampling,0.7875,0.4918,0.5341,0.7813,0.5923,0.6237,-0.0062
+Logistic Regression + Undersampling,0.7861,0.7846,0.792,0.7206,0.7729,0.7736,-0.0655
+Logistic Regression + Cost-Sensitive,0.7607,0.1235,0.2407,0.7205,0.1139,0.2326,-0.0402

@@ -1,0 +1,10 @@
+Model,Strategy,Config,PR-AUC,F1,ROC-AUC,MCC,Accuracy,Best Params,Fit Time (s)
+Random Forest,Cost-Sensitive,Random Forest + Cost-Sensitive,0.8114,0.7907,0.973,0.7992,0.9995,"{'n_estimators': 200, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'log2', 'max_depth': 20}",5698.6
+Random Forest,SMOTE,Random Forest + SMOTE,0.809,0.3887,0.9854,0.4594,0.9966,"{'n_estimators': 200, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'max_depth': 20}",147.1
+Logistic Regression,SMOTE,Logistic Regression + SMOTE,0.8032,0.1239,0.9865,0.2395,0.9838,"{'C': 10, 'max_iter': 1000, 'solver': 'liblinear'}",3.8
+XGBoost,Cost-Sensitive,XGBoost + Cost-Sensitive,0.8008,0.8088,0.9844,0.8118,0.9995,"{'subsample': 0.7, 'reg_lambda': 10, 'reg_alpha': 1, 'n_estimators': 200, 'max_depth': 7, 'learning_rate': 0.2, 'colsample_bytree': 0.7}",115.5
+Random Forest,Undersampling,Random Forest + Undersampling,0.7994,0.6593,0.9832,0.6707,0.9989,"{'n_estimators': 200, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': 'log2', 'max_depth': None}",113.2
+XGBoost,SMOTE,XGBoost + SMOTE,0.7956,0.3256,0.9898,0.4127,0.9954,"{'subsample': 0.8, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_estimators': 200, 'max_depth': 7, 'learning_rate': 0.2, 'colsample_bytree': 1.0}",67.8
+XGBoost,Undersampling,XGBoost + Undersampling,0.7875,0.4918,0.9904,0.5341,0.9978,"{'subsample': 0.8, 'reg_lambda': 1, 'reg_alpha': 0.1, 'n_estimators': 200, 'max_depth': 7, 'learning_rate': 0.2, 'colsample_bytree': 1.0}",59.7
+Logistic Regression,Undersampling,Logistic Regression + Undersampling,0.7861,0.7846,0.9858,0.792,0.9995,"{'C': 0.001, 'max_iter': 1000, 'solver': 'lbfgs'}",0.9
+Logistic Regression,Cost-Sensitive,Logistic Regression + Cost-Sensitive,0.7607,0.1235,0.9862,0.2407,0.9835,"{'C': 100, 'max_iter': 1000, 'solver': 'liblinear'}",49.2
